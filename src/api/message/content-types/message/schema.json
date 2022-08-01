@@ -19,6 +19,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::contact.contact"
+    },
+    "chat": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::chat.chat"
     }
   }
 }

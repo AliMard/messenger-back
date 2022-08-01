@@ -24,11 +24,6 @@
     },
     "Title": {
       "type": "string"
-    },
-    "Messages": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::message.message"
     }
   }
 }
